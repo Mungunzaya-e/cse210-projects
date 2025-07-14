@@ -4,7 +4,7 @@ public class PromptGenerator
 {
     public List<string> _prompts;
 
-    public string _getPrompt()
+    public string GetPrompt()
     {
         Random rnd = new Random();
         int choice = rnd.Next(_prompts.Count);

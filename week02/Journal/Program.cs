@@ -47,7 +47,7 @@ class Program
 
                 Entry entry = new Entry();
                 entry._date = theCurrentTime.ToShortDateString();
-                entry._randomPrompt = prompt._getPrompt();
+                entry._randomPrompt = prompt.GetPrompt();
                 Console.Write(entry._randomPrompt + "\n>> ");
                 entry._entryText = Console.ReadLine();
 
